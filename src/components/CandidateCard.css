@@ -111,3 +111,18 @@
 .candidate-card-favorite-btn--active:hover {
   background-color: #fef08a;
 }
+
+@media (max-width: 480px) {
+  .candidate-card {
+    padding: 1rem;
+  }
+
+  .candidate-card-title {
+    font-size: 1.1rem;
+  }
+
+  .candidate-card-favorite-btn {
+    padding: 0.55rem 0.75rem;
+    font-size: 0.825rem;
+  }
+}
