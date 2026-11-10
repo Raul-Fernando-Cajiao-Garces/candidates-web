@@ -1,7 +1,11 @@
+import { Header } from './components/Header'
+import { CandidatesPage } from './pages/CandidatesPage'
+
 const App = () => {
   return (
-    <div className="app-container">
-      <h1>TalentHub</h1>
+    <div className="app">
+      <Header />
+      <CandidatesPage />
     </div>
   )
 }
