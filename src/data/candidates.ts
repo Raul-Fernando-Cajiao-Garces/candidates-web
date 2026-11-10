@@ -1,0 +1,60 @@
+import type { Candidate } from '../types/candidate'
+
+export const candidates: Candidate[] = [
+  {
+    id: 1,
+    name: 'Ana Torres',
+    email: 'ana.torres@correo.com',
+    city: 'Quito',
+    experienceYears: 2,
+    skills: ['TypeScript', 'SQL', 'React'],
+  },
+  {
+    id: 2,
+    name: 'Carlos Mendoza',
+    email: 'carlos.mendoza@correo.com',
+    city: 'Guayaquil',
+    experienceYears: 0,
+    skills: ['JavaScript', 'HTML', 'CSS'],
+  },
+  {
+    id: 3,
+    name: 'Diana Paredes',
+    email: 'diana.paredes@correo.com',
+    city: 'Cuenca',
+    experienceYears: 1,
+    skills: ['Python', 'PostgreSQL', 'FastAPI'],
+  },
+  {
+    id: 4,
+    name: 'Fernando Gómez',
+    email: 'fernando.gomez@correo.com',
+    city: 'Quito',
+    experienceYears: 5,
+    skills: [],
+  },
+  {
+    id: 5,
+    name: 'Valeria Ortiz',
+    email: 'valeria.ortiz@correo.com',
+    city: 'Ambato',
+    experienceYears: 3,
+    skills: ['Docker', 'Node.js', 'Express', 'Git'],
+  },
+  {
+    id: 6,
+    name: 'Mateo Benítez',
+    email: 'mateo.benitez@correo.com',
+    city: 'Loja',
+    experienceYears: 4,
+    skills: ['Java', 'Spring Boot', 'MySQL'],
+  },
+  {
+    id: 7,
+    name: 'Sofía Morales',
+    email: 'sofia.morales@correo.com',
+    city: 'Quito',
+    experienceYears: 1,
+    skills: ['Figma', 'UI/UX', 'CSS'],
+  },
+]
