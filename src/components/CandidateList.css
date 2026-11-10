@@ -1,0 +1,19 @@
+.candidate-list {
+  width: 100%;
+}
+
+.candidate-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media (max-width: 480px) {
+  .candidate-list-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
